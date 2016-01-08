@@ -1,0 +1,153 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ========== SOCIAL - ICON ========== */
+#jsn-social-icons ul {
+	float: left;
+	margin: 0;
+}
+#jsn-social-icons ul li {
+	float: left;
+	list-style: none;
+	margin: 0 0 0 9px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+#jsn-social-icons ul li a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+#jsn-social-icons ul li:hover a{
+	opacity: 1;
+}
+#jsn-social-icons ul li:last-child {
+	border-right: 1px solid rgba(255,255,255,0.15);
+}
+#jsn-social-icons ul li a {
+	display: block;
+	position: relative;
+	outline: none;
+	opacity: 0.8;
+	text-indent: -999em;
+	background-image: url(../images/icons/icons-social.png);
+	background-repeat: no-repeat;
+	transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+}
+#jsn-social-icons ul li:last-child {
+	border-right: 1px solid #ececec;
+}
+#jsn-social-icons ul li:hover a {
+	opacity: 1;
+	transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
+
+#jsn-social-icons ul .facebook {
+	background-color: #3b5998;
+}
+#jsn-social-icons ul .twitter {
+	background-color: #55acee;
+}
+#jsn-social-icons ul .youtube {
+	background-color: #b31217;
+}
+#jsn-social-icons ul .googleplus {
+	background-color: #dd4b39;
+}
+#jsn-social-icons ul .pinterest {
+	background-color: #D01D15;
+}
+#jsn-social-icons ul .myspace {
+	background-color: #0A5BD8;
+}
+#jsn-social-icons ul .flickr {
+	background-color: #ea5ea5;
+}
+#jsn-social-icons ul .dribble {
+	background-color: #E95C92;
+}
+#jsn-social-icons ul .stumbleupon {
+	background-color: #EA4C26;
+}
+#jsn-social-icons ul .yahoo {
+	background-color: #9667e8;
+}
+#jsn-social-icons ul .skype {
+	background-color: #00B0F6;
+}
+#jsn-social-icons ul .rss {
+	background-color: #FEAE5C;
+}
+#jsn-social-icons ul .linkedin {
+	background-color: #499DC9;
+}
+/* ========== ICONS POSITION ========== */
+#jsn-social-icons ul li.facebook a {
+	background-position: 7px center;
+}
+#jsn-social-icons ul li.twitter a {
+	background-position: -42px center;
+}
+#jsn-social-icons ul li.youtube a {
+	background-position: -93px center;
+}
+#jsn-social-icons ul li.googleplus a {
+	background-position: -143px center;
+}
+#jsn-social-icons ul li.pinterest a {
+	background-position: -193px center;
+}
+#jsn-social-icons ul li.myspace a {
+	background-position: -243px center;
+}
+#jsn-social-icons ul li.flickr a {
+	background-position: -293px center;
+}
+#jsn-social-icons ul li.dribble a {
+	background-position: -343px center;
+}
+#jsn-social-icons ul li.stumbleupon a {
+	background-position: -394px center;
+}
+#jsn-social-icons ul li.yahoo a {
+	background-position: -444px center;
+}
+#jsn-social-icons ul li.skype a {
+	background-position: -493px center;
+}
+#jsn-social-icons ul li.rss a {
+	background-position: -542px center;
+}
+#jsn-social-icons ul li.linkedin a {
+	background-position: -591px center;
+}
+/* ========== RTL LAYOUT ========== */
+body.jsn-direction-rtl #jsn-social-icons ul {
+    float: right;
+}
+body.jsn-direction-rtl #jsn-social-icons ul li {
+    float: right;
+    border-right: 1px solid #ececec;
+    border-left: none;
+}
+body.jsn-direction-rtl #jsn-social-icons ul li:last-child {
+	border-left: 1px solid #ececec;
+}

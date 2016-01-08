@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"New York, NY",
+		"city":"New York",
+		"state":"NY",
+		"state_name":"New York",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"10001",
+		"magic":"3",
+		"wmo":"99999",
+		"latitude":"40.75013351",
+		"longitude":"-73.99700928",
+		"elevation":"17.00000000"
+		},
+		"observation_location": {
+		"full":"Chelsea, West 28th St., New York, New York",
+		"city":"Chelsea, West 28th St., New York",
+		"state":"New York",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"40.746910",
+		"longitude":"-73.992836",
+		"elevation":"110 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KNYNEWYO395",
+		"observation_time":"Last Updated on January 7, 12:03 AM EST",
+		"observation_time_rfc822":"Thu, 07 Jan 2016 00:03:02 -0500",
+		"observation_epoch":"1452142982",
+		"local_time_rfc822":"Thu, 07 Jan 2016 00:03:05 -0500",
+		"local_epoch":"1452142985",
+		"local_tz_short":"EST",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0500",
+		"weather":"Clear",
+		"temperature_string":"34.2 F (1.2 C)",
+		"temp_f":34.2,
+		"temp_c":1.2,
+		"relative_humidity":"29%",
+		"wind_string":"Calm",
+		"wind_dir":"NNW",
+		"wind_degrees":334,
+		"wind_mph":0.2,
+		"wind_gust_mph":"2.5",
+		"wind_kph":0,
+		"wind_gust_kph":"4.0",
+		"pressure_mb":"1030",
+		"pressure_in":"30.41",
+		"pressure_trend":"-",
+		"dewpoint_string":"5 F (-15 C)",
+		"dewpoint_f":5,
+		"dewpoint_c":-15,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"34 F (1 C)",
+		"windchill_f":"34",
+		"windchill_c":"1",
+		"feelslike_string":"34 F (1 C)",
+		"feelslike_f":"34",
+		"feelslike_c":"1",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/NY/New_York.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNYNEWYO395",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=40.746910,-73.992836",
+		"nowcast":""
+	}
+}
